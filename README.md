@@ -102,7 +102,7 @@ The filtered minimum number after 2000 year is:  152
 {'time': '2000', 'value': '152'}
 
 # Unfiltered data figure including minimum and average value
-<img src=".png" width="800" />
+<img src="The_unfiltered_figure.png" width="800" />
 
 # Filtered data figure including minimum and average value
-<img src=".png" width="800" />
+<img src="The_filtered_figure.png" width="800" />
