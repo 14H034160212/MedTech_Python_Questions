@@ -283,7 +283,7 @@ def draw_figure(x,y,title,example_time_list_filtered, example_dict_copy_minimum_
     plt.show() 
 ########Draw plot program##############
 ```
-# The main code
+# The main function code
 ```
 import json
 from methods import unfilter_processing, filter_processing_begin_end, filter_processing_begin
