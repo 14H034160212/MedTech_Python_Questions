@@ -11,12 +11,12 @@ def json_string2int(example_dict):
     # Convert the string format of the value into the int format from the json dictionary
     example_value_list = []
     for example in example_dict:
-        example_value_list.append(int(example['value']))
+        example_value_list.append(example['value'])
     
     # Convert the string format of the time into the int format from the json dictionary    
     example_time_list = []
     for example in example_dict:
-        example_time_list.append(int(example['time']))
+        example_time_list.append(example['time'])
     
     return example_value_list, example_time_list
 #########end load json file and transfer the string value into the int value################
@@ -56,14 +56,14 @@ def filter_processing_begin_end(example_dict, begin_year, end_year):
     # Pick the value after begin_year
     example_value_list_filtered = []
     for example in example_dict:
-        if int(example["time"]) > begin_year or int(example["time"]) == begin_year and int(example["time"]) < end_year or int(example["time"]) == end_year:
+        if (int(example["time"]) > begin_year or int(example["time"]) == begin_year) and (int(example["time"]) < end_year or int(example["time"]) == end_year):
             example_value_list_filtered.append(int(example['value']))
             print (example['value'])
     
     # Pick the time after begin_year
     example_time_list_filtered = []
     for example in example_time_list:
-        if example > begin_year or example == begin_year and example < end_year or example == end_year:
+        if (example > begin_year or example == begin_year) and (example < end_year or example == end_year):
             example_time_list_filtered.append(example)
             print (example)
     
