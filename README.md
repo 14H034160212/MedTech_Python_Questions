@@ -66,7 +66,7 @@ The filtered minimum number after between 2000 year and 2010 year is:  152
 
 {'time': '1996', 'value': '95'}
 
-# Filtered Data
+# Filtered Data after 2001 year
 {'time': '2019', 'value': '502'}
 
 {'time': '2018', 'value': '482'}
@@ -85,6 +85,27 @@ The filtered minimum number after between 2000 year and 2010 year is:  152
 
 {'time': '2011', 'value': '309'}
 
+{'time': '2010', 'value': '300'}
+
+{'time': '2009', 'value': '298'}
+
+{'time': '2008', 'value': '286'}
+
+{'time': '2007', 'value': '263'}
+
+{'time': '2006', 'value': '235'}
+
+{'time': '2005', 'value': '212'}
+
+{'time': '2004', 'value': '209'}
+
+{'time': '2003', 'value': '200'}
+
+{'time': '2002', 'value': '186'}
+
+{'time': '2001', 'value': '163'}
+
+# Filtered Data between 2000 year and 2010 year
 {'time': '2010', 'value': '300'}
 
 {'time': '2009', 'value': '298'}
