@@ -151,12 +151,12 @@ def json_string2int(example_dict):
     # Convert the string format of the value into the int format from the json dictionary
     example_value_list = []
     for example in example_dict:
-        example_value_list.append(int(example['value']))
+        example_value_list.append(example['value'])
     
     # Convert the string format of the time into the int format from the json dictionary    
     example_time_list = []
     for example in example_dict:
-        example_time_list.append(int(example['time']))
+        example_time_list.append(example['time'])
     
     return example_value_list, example_time_list
 #########end load json file and transfer the string value into the int value################
