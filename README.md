@@ -136,7 +136,7 @@ The filtered minimum number after between 2000 year and 2010 year is:  163
 
 <img src="The_filtered_figure_after_2001.png" width="800" />
 
-# The methods code
+# The methods code (methods.py)
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -283,7 +283,7 @@ def draw_figure(x,y,title,example_time_list_filtered, example_dict_copy_minimum_
     plt.show() 
 ########Draw plot program##############
 ```
-# The main function code
+# The main function code (main.py)
 ```
 import json
 from methods import unfilter_processing, filter_processing_begin_end, filter_processing_begin
@@ -306,7 +306,7 @@ if __name__ == '__main__':
     filter_processing_begin(example_dict, begin_year)
   
 ```
-# The json schema check code
+# The json schema check code (jsonSchemaCheck.py)
 ```
 import json
 from jsonschema import validate
