@@ -315,14 +315,16 @@ from jsonschema import validate
 with open('work_test.json','r') as f:
     example_dict = json.load(f)
 schema = {
+        "type" : "array",
+        "items" : {
         "type" : "object",
         "properties" : {
-                "value" : {"type" : "number"},
                 "time" : {"type" : "number"},
-                },
+                "value" : {"type" : "number"},
+                        },
+                }
         }
-
-for example in example_dict:
-    validate(instance=example, schema=schema)
+        
+validate(instance=example_dict, schema=schema)
 
 ```
