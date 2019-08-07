@@ -6,7 +6,7 @@ The unfiltered minimum number is:  95
 
 # Filtered after 2001 year
 
-The filtered mean and average number after 2001 year is:  302.684210526
+The filtered mean and average number after 2001 year is:  227.636363636
 
 The filtered minimum number after 2001 year is:  152
 
@@ -14,7 +14,7 @@ The filtered minimum number after 2001 year is:  152
 
 The filtered mean and average number between 2000 year and 2010 year is:  295.15
 
-The filtered minimum number after between 2000 year and 2010 year is:  152
+The filtered minimum number after between 2000 year and 2010 year is:  163
 
 # Unfiltered Data
 
